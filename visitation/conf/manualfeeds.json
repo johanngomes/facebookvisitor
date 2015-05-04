@@ -1,0 +1,19 @@
+{
+  "page": {
+    "max_days_spent_to_crawl": 30,
+    "visit_multiple": 2,
+    "root_feed_id": "468241373195655",
+    "visit_increment": [2, 3],
+    "revisit_increment": [128, 256]
+  },
+  "group": {
+    "sources_per_set": 30
+  },
+  "event": {
+    "authentication_data_path": "authentication_data.txt",
+    "saved_access_token_path": "saved_access_token.txt"
+  },
+  "user": {
+
+  }
+}

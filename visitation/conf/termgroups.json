@@ -1,0 +1,3337 @@
+{
+    "influenceExpiration": "1440",
+    "dataGenerationPeriod": "30",
+    "database": "radar-lcartaxox",
+    "title": "Extração para Luciano Cartaxo - PMJP",
+    "configType": "extraction-final",
+    "commonDatabase": "radar-common",
+    "configDatabase": "radar-config",
+    "geoLocGroup": "BAIRROSJP",
+    "geographyFile": "jpa-bairros.topojson",
+    "minChangeTimeInMinutes": "360",
+    "automaticSentiment": false,
+    "FBAPP_ID_UPDATE": "Extraction-4",
+    "FBAPP_ID_SEARCH": "Extraction-4",
+    "GEOLOCATOR_ID": "high-unity-427",
+    "IGAPP_ID_SEARCH": "Extraction-5",
+    "TWAPP_ID_SEARCH": "Extraction-5",
+    "YTAPP_ID_SEARCH": "high-unity-427",
+    "FB_ACCOUNT": "Choice2",
+    "version": "1", "updatePolicy": [
+        {
+            "minutesSinceLastAction": 4320,
+            "updateIntervalInMinutes": 360
+        },
+        {
+            "minutesSinceLastAction": 10080,
+            "updateIntervalInMinutes": 1440
+        },
+        {
+            "minutesSinceLastAction": 60,
+            "updateIntervalInMinutes": 0
+        },
+        {
+            "minutesSinceLastAction": 180,
+            "updateIntervalInMinutes": 30
+        },
+        {
+            "minutesSinceLastAction": 720,
+            "updateIntervalInMinutes": 60
+        },
+        {
+            "minutesSinceLastAction": 1440,
+            "updateIntervalInMinutes": 180
+        },
+        {
+            "minutesSinceLastAction": 21600,
+            "updateIntervalInMinutes": 10080
+        }
+    ],
+    "termGroups": [
+        {
+            "key": "lcartaxo",
+            "name": "Luciano Cartaxo",
+            "aceitar": [
+                "\"luciano cartaxo\"",
+                "cartaxo \"joao pessoa\"",
+                "cartaxo prefeitura",
+                "cartaxo PMJP",
+                "cartaxo PT",
+                "luciano lucélio",
+                "Luciano_Cartaxo",
+                "@Luciano_Cartaxo",
+                "Lucianocartaxopires",
+                "lucianocartaxo"
+            ]
+        },
+        {
+            "key": "nonatobandeira",
+            "name": "Nonato Bandeira",
+            "aceitar": [
+                "\"nonato bandeira\"",
+                "nonato \"joao pessoa\"",
+                "nonato prefeitura",
+                "nonato PMJP",
+                "nonato PPS",
+                "Nonato Bandeira",
+                "@nonatobandeira",
+                "nonatobandeira23456"
+            ]
+        },
+        {
+            "key": "PMJP",
+            "name": "Prefeitura Municipal de João Pessoa",
+            "aceitar": [
+                "Prefeitura Joao Pessoa",
+                "PMJP",
+                "@pmjponline",
+                "pmjponline",
+                "Prefeitura municipal de joao pessoa",
+                "prefeitura jp",
+                "prefeitura jampa",
+                "secitec pmjp",
+                "secitec joão pessoa",
+                "Projovem joao pessoa",
+                "Centros de Referência em Educação Infantil",
+                "Creis",
+                "SEDEC joao pessoa",
+                "Bolsa universitaria joao pessoa",
+                "SUS João Pessoa",
+                "SUS PMJP",
+                "EPS João Pessoa",
+                "SMS João Pessoa",
+                "@pmjpSAUDE",
+                "SAMU Joao Pessoa",
+                "Telessaude joao pessoa",
+                "Hospital Geral Santa Isabel",
+                "Hospital Valentina Figueiredo",
+                "Instituto Cândida Vargas",
+                "Complexo Hospitalar Mangabeira",
+                "Rede Escola João Pessoa",
+                "O Programa de Educação pelo Trabalho para a Saúde",
+                "PET-Saúde",
+                "Pró-Pet Redes de Atenção à Saúde",
+                "Secretaria de Infraestrutura joao pessoa",
+                "Seinfra joao pessoa",
+                "Plano Diretor João Pessoa",
+                "Muriçocas do Miramar",
+                "Muriçocas Joao Pessoa",
+                "Muricoquinha",
+                "Sao Joao Pessoa",
+                "picole com manga",
+                "cafucu",
+                "casarao 34",
+                "\"casa das artes\"",
+                "escola municipal de artes joao pessoa",
+                "Funda municipal de cultura joao pessoa",
+                "FMC joao pessoa",
+                "SEMUSB",
+                "secretaria de Segurança Urbana e Cidadania",
+                "Secretaria Municipal da Juventude Esporte e Recreação",
+                "SEJER",
+                "Taça Cidade João Pessoa",
+                "Maratona cidade de joao pessoa",
+                "Jogos escolares da juventude joao pessoa",
+                "Sine-jp",
+                "Banco cidadão",
+                "Projovem Trabalhador",
+                "Juventude Cidadã",
+                "A Superintendência de Transportes e Trânsito de João Pessoa",
+                "STTrans",
+                "sttransjp",
+                "SUPERINTENDÊNCIA EXECUTIVA DE MOBILIDADE URBANA DE JOÃO PESSOA",
+                "SEMOB"
+            ]
+        },
+        {
+            "key": "Jampa",
+            "name": "João Pessoa",
+            "removeIfNoTheme": true,
+            "aceitar": [
+                "\"João Pessoa\"",
+                "Jampa",
+                "joaopessoa",
+                "\"hotel tambaú\"",
+                "Bairro Água Fria",
+                "Bairro Altiplano",
+                "Bairro Alto do Céu",
+                "Alto do Mateus",
+                "Bairro Anatólia",
+                "Bairro dos Estados",
+                "Bairro dos Ipês",
+                "Bairro dos Novais",
+                "Bairro Bancários",
+                "Barra de Gramame",
+                "Bessa",
+                "Bairro Brisamar",
+                "Cabo Branco",
+                "Cidade dos Colibris",
+                "bairro Costa e Silva",
+                "Bairro Cristo Redentor",
+                "Cruz das Armas",
+                "Cuiá bairro",
+                "Ernani Sátiro",
+                "bairro Ernesto Geisel",
+                "bairro Expedicionários",
+                "bairro Funcionários",
+                "Gramame",
+                "bairro Grotão",
+                "Ilha do Bispo",
+                "Jaguaribe",
+                "Bairro Jardim Cidade Universitária",
+                "Jardim Esther",
+                "Jardim Luna",
+                "Jardim Mangueira",
+                "\"Jardim Oceania\"",
+                "\"Jardim Planalto\"",
+                "\"Jardim São Paulo\"",
+                "\"Jardim Veneza\"",
+                "\"José Américo\" bairro",
+                "\"bairro João Agripino\"",
+                "\"Bairro João Paulo II\"",
+                "Manaíra",
+                "Bairro Mandacaru",
+                "Mangabeira",
+                "bairro Miramar",
+                "Muçumagro",
+                "Mumbaba",
+                "Mussure",
+                "Oitizeiro",
+                "pairro \"Padre Zé\"",
+                "Paratibe",
+                "Pedro Gondim",
+                "Planalto de Boa Esperança",
+                "Ponta dos Seixas",
+                "\"Portal do Sol\" bairro",
+                "\"bairro do Rangel\"",
+                "bairro Róger",
+                "Tambauzinho",
+                "bairro Tambaú",
+                "Tambiá",
+                "bairro Trincheiras",
+                "bairro Valentina",
+                "bairro Varadouro"
+            ]
+        },
+        {
+            "key": "SedecPMJP",
+            "name": "SedecPMJP",
+            "aceitar": [
+                "\"Luiz de Sousa Júnior\"",
+                "PROJOVEM URBANO",
+                "sedec joao pessoa",
+                "sedec pmjp",
+                "educação joão pessoa",
+                "escola Afonso Pereira da Silva",
+                "escola Ana Cristina Rolin Machado",
+                "escola Anita Trigueiro",
+                "escola Antônio Santos Coelho",
+                "escola Aruanda",
+                "escola David Trindade",
+                "escola Índio Piragibe",
+                "escola João Gadelha de Oliveira",
+                "escola Lions Tambaú",
+                "escola Luiz Vaz de Camões",
+                "escola Olívio Ribeiro Campos",
+                "escola Virgínius da Gama e Melo",
+                "escola Zumbi dos Palmares",
+                "CREI Custódia Nóbrega",
+                "CREI Maestro Pedro Santos",
+                "CREI Rita Gadelha de Sá",
+                "CREI Vera Lúcia",
+                "CREI José de Carvalho Costa Filho",
+                "escola Agostinho Fonseca Neto",
+                "escola Américo Falcão",
+                "escola Analice Caldas",
+                "escola Francisco Edward de Aguiar",
+                "escola Francisco Pereira Nóbrega",
+                "escola Augusto dos Anjos",
+                "escola Bartolomeu de Gusmão",
+                "escola Dumerval Trigueiro Mendes",
+                "escola Leônidas Santiago",
+                "escola Luiz Mendes Pontes",
+                "escola Padre Pedro Serrão",
+                "escola Santa Ângela",
+                "escola Santa Emília de Rodat",
+                "escola Ubirajara Targino Botto",
+                "CREI Roberto Vieira",
+                "CREI Rodrigo Moreno",
+                "CREI Rosa Andrade",
+                "escola Ana Nery",
+                "escola Arnaldo de Barros Moreira",
+                "escola Euclides da Cunha",
+                "escola João Medeiros",
+                "escola João Santa Cruz",
+                "escola João XXIII",
+                "escola José Novais",
+                "escola Luiza Lima Lobo",
+                "escola Napoleão Laureano",
+                "escola Severino Patrício",
+                "CREI Floriano Augusto",
+                "CREI Francisco Porto",
+                "CREI Margot Trindade",
+                "CREI Maricelli Carneiro",
+                "CREI Maria de Lourdes",
+                "escola Antonia do Socorro Machado",
+                "escola Carlos Neves da Franca",
+                "escola Cícero Leite",
+                "escola Dom Helder Câmara",
+                "escola Dom Marcerlo P. Carvalheira",
+                "escola Fenelon Câmara",
+                "escola José Américo de Almeida",
+                "escola José Eugênio Lins de Albuquerque",
+                "escola Padre Leonel da Franca",
+                "CREI CITEX",
+                "CREI Dom Marcelo",
+                "CREI João Leite Gambarra Neto",
+                "CREI Profª Marinete F. Paiva de Oliveira",
+                "escola Cônego João de Deus",
+                "escola Cônego Mathias Freire",
+                "escola Damásio Franca",
+                "escola Frei Afonso",
+                "escola Frutuoso Barbosa",
+                "escola José Peregrino",
+                "escola Mons. João Coutinho",
+                "escola Santos Dumont",
+                "CREI Assis Tavares",
+                "Diotília Guedes",
+                "CREI El Shadai",
+                "CREI Frei Afonso",
+                "CREI Júlia Ramos",
+                "CREI José M. Buriti",
+                "escola Ângelo Francisco Notare",
+                "escola Aylton Cavalcanti de Ataíde",
+                "escola Francisca Moura",
+                "escola Frei Albino",
+                "escola General Rodrigo Otávio",
+                "escola Hugo Moura",
+                "escola José de Barros Moreira",
+                "escola Luiz Augusto Crispim",
+                "escola Nazinha Barbosa",
+                "escola Senador Ruy Carneiro",
+                "Seráfico da Nóbrega",
+                "escola Ubirajara Pinto Rodrigues",
+                "Violeta Formiga",
+                "CREI Antonieta Aranha de Macedo",
+                "CREI Antônio Varandas de Carvalho",
+                "CREI Dona Tana",
+                "CREI João Tota",
+                "CREI Oduvaldo Batista",
+                "CREI Vicente Chaves de Araújo",
+                "Anayde Beiriz",
+                "escola Cantalice Leite",
+                "escola Duarte da Silveira",
+                "escola Duque de Caxias",
+                "escola Ernany Satyro",
+                "escola João Monteiro da Franca",
+                "escola Presidente João Pessoa",
+                "CREI Mayara Lima",
+                "CREI Gertrudes Maria",
+                "escola Anísio Teixeira",
+                "escola Antenor Navarro",
+                "escola Celso Furtado",
+                "Daura Santiago Rangel",
+                "escola Jornalista Raimundo Nonato",
+                "CREI Maria da Penha Macedo de Melo",
+                "escola Maria Ruth de Souza",
+                "escola Moema Tinoco Cunha Lima",
+                "escola Pedra do Reino",
+                "escola Tharcilla Barbosa da Franca",
+                "CREI Calula Leite",
+                "CREI Luzia da Taipa",
+                "CREI Maria de Nazaré",
+                "CREI Noêmia Trindade",
+                "CREI Stelina Nunes",
+                "escola Almirante Barroso",
+                "escola Analice Gonçalves de Carvalho",
+                "escola Anibal Moura",
+                "Apolônio Sales de Miranda",
+                "escola Oscar de Castro",
+                "escola Renato Lima",
+                "escola Zulmira de Novais",
+                "CREI Adalgiza Vieira"
+            ]
+        },
+        {
+            "key": "SEMOB",
+            "name": "SEMOB",
+            "aceitar": [
+                "Câmeras Monitoramento SEMOB JP",
+                "Educação Trânsito \"João Pessoa\"",
+                "SEMOBJP",
+                "@semobjp",
+                "\"Superintendência de Transportes e Trânsito de João Pessoa\"",
+                "STTRANS \"joão Pessoa\"",
+                "\"SUPERINTENDÊNCIA EXECUTIVA DE MOBILIDADE URBANA DE JOÃO PESSOA\"",
+                "Trânsito \"joão pessoa\"",
+                "passageiros \"joão pessoa\"",
+                "ônibus \"João Pessoa\"",
+                "Carro \"João Pessoa\"",
+                "Moto \"João Pessoa\"",
+                "transporte público \"João Pessoa\"",
+                "Mobilidade urbana \"João Pessoa\"",
+                "transporte \"João Pessoa\"",
+                "amarelinho \"João Pessoa\"",
+                "velocidade controlada \"João Pessoa\""
+            ]
+        }
+    ],
+    "rejeitar": [
+        "vende-se",
+        "vendem-se",
+        "compra-se",
+        "compram-se",
+        "oferta inauguração",
+        "lulu santos",
+        "\"a bessa\"",
+        "\"vira-se bessa\"",
+        "\"@juliabessaa\"",
+        "\"Fernanda Bessa\"",
+        "\"Josemar Bessa\"",
+        "Palmas projovem",
+        "\"Marcela Mangabeira\"",
+        "\"Marcelo Mangabeira\"",
+        "\"cara de castelo branco\"",
+        "\"de mala e cuia\"",
+        "\"lavras de mangabeira\"",
+        "\"Mangabeira Unger\""
+    ],
+    "rejeitar-manual": [
+        "I'm at "
+    ],
+    "tags": [
+        {
+            "terms": [
+                "\"adversários políticos\"",
+                "\"Aliado\"",
+                "\"aliados\"",
+                "\"aliança\"",
+                "\"aliar\"",
+                "\"aliar-se\"",
+                "\"aliam\"",
+                "\"aliam-se\"",
+                "\"aliou\"",
+                "\"aliou-se\"",
+                "\"apoio\"",
+                "\"apoiam\"",
+                "\"apoiar\"",
+                "\"apoia\"",
+                "\"Campanha\"",
+                "\"campanha\"",
+                "\"candidata\"",
+                "\"candidatas\"",
+                "\"candidatar\"",
+                "\"candidato\"",
+                "\"candidatos\"",
+                "\"candidatura\"",
+                "\"chapa\"",
+                "\"Circunscrição\"",
+                "\"coligação\"",
+                "\"comitê\"",
+                "\"comunista\"",
+                "\"COMUNISTAS\"",
+                "\"Congresso\"",
+                "\"Constituição\"",
+                "\"corrupção\"",
+                "\"corupção\"",
+                "\"Corrupção\"",
+                "\"corrupto\"",
+                "\"CPI\"",
+                "\"Câmara\"",
+                "\"DEM\"",
+                "\"debate\"",
+                "\"democracia\"",
+                "\"denúncias\"",
+                "\"deputada\"",
+                "\"deputado\"",
+                "\"Deputados\"",
+                "\"deputadas\"",
+                "\"discurso\"",
+                "\"discursos\"",
+                "\"disputa pelo Governo\"",
+                "\"ditadura\"",
+                "\"eleito\"",
+                "\"eleitor\"",
+                "\"eleitoral\"",
+                "\"eleitoreiro\"",
+                "\"eleitores\"",
+                "\"eleição\"",
+                "\"eleger\"",
+                "\"eleger-se\"",
+                "\"elegendo\"",
+                "\"elegeu\"",
+                "\"eleições\"",
+                "\"eleições\"",
+                "\"entrevista\"",
+                "\"entrevistar\"",
+                "\"entrevistado\"",
+                "\"entrevistada\"",
+                "\"ex-aliados\"",
+                "\"FARC\"",
+                "\"folha política\"",
+                "\"GOV\"",
+                "\"Governador\"",
+                "\"Governo\"",
+                "\"guia eleitoral\"",
+                "\"Ibope\"",
+                "\"inelegível\"",
+                "\"Infantaria\"",
+                "\"lei\"",
+                "\"mandato\"",
+                "\"mandato\"",
+                "\"mandatos\"",
+                "\"mensalão\"",
+                "\"ministra\"",
+                "\"ministros\"",
+                "\"Ministério\"",
+                "\"MST\"",
+                "\"oposição\"",
+                "\"palanque\"",
+                "\"parlamento\"",
+                "\"partido\"",
+                "\"Partido\"",
+                "\"partidos\"",
+                "\"PDT\"",
+                "\"petistas\"",
+                "\"PMDB\"",
+                "\"políticas\"",
+                "\"PPS\"",
+                "\"Prefeito\"",
+                "\"prefeitos\"",
+                "\"Prefeitura\"",
+                "\"presidenta\"",
+                "\"presidente\"",
+                "\"presidência\"",
+                "\"Programa\"",
+                "\"promessas não cumpridas\"",
+                "\"promessas\"",
+                "\"PRP\"",
+                "\"PSDB\"",
+                "\"PSB\"",
+                "\"PSC\"",
+                "\"PSOL\"",
+                "\"PT\"",
+                "\"reeleição\"",
+                "\"República\"",
+                "\"sabatina\"",
+                "\"sabatinados\"",
+                "\"sabatinado\"",
+                "\"Senado\"",
+                "\"senador\"",
+                "\"senadora\"",
+                "\"senadoras\"",
+                "\"senadores\"",
+                "\"STF\"",
+                "\"TSE\"",
+                "\"tucano\"",
+                "\"turno\"",
+                "\"vereador\"",
+                "\"vota\"",
+                "\"votar\"",
+                "\"votação\"",
+                "\"vote\"",
+                "\"voto\"",
+                "\"votos\"",
+                "\"votado\"",
+                "\"votarão\"",
+                "\"adversários políticos\"",
+                "\"urnas\"",
+                "\"governar\"",
+                "\"ficha limpa\"",
+                "\"ficha suja\"",
+                "\"pesquisa\"",
+                "\"pesquisas\"",
+                "\"eleitorais\"",
+                "\"proposta\"",
+                "\"propostas\"",
+                "\"político\""
+            ],
+            "key": "POL",
+            "title": "Política"
+        },
+        {
+            "terms": [
+                "\"Educação Tecnológica\"",
+                "\"aluna\"",
+                "\"alunos\"",
+                "\"CINTEP\"",
+                "\"pronatec\"",
+                "\"Capacitar\"",
+                "\"universidade\"",
+                "\"professores\"",
+                "\"Educação Infantil\"",
+                "\"Socialização\"",
+                "\"Endoculturação\"",
+                "\"CMEI\"",
+                "\"PROUNI\"",
+                "\"professor\"",
+                "\"Ensino Técnico\"",
+                "\"professora\"",
+                "\"uniforme\"",
+                "\"sala de aula\"",
+                "\"escolas\"",
+                "\"docentes\"",
+                "\"IDEB\"",
+                "\"educacional\"",
+                "\"educação\"",
+                "\"Ensino Tecnológico\"",
+                "\"lousa\"",
+                "\"Ciência Sem Fronteiras\"",
+                "\"colegio\"",
+                "\"notas escolares\"",
+                "\"evasão escolar\"",
+                "\"UE[A-Z]{2}\"",
+                "\"projovem\"",
+                "\"evasão\"",
+                "\"Pós-Doutorado\"",
+                "\"estudante\"",
+                "\"Doutorado\"",
+                "\"EAD\"",
+                "\"SESC\"",
+                "\"Bacharelado\"",
+                "\"alfabetização\"",
+                "\"Ministério da Educação\"",
+                "\"ensino superior\"",
+                "\"Licenciatura\"",
+                "\"ENEM\"",
+                "\"analfabetismo\"",
+                "\"PDE\"",
+                "\"Bolsa de Estudo\"",
+                "\"UF[A-Z]{2}\"",
+                "\"MEC\"",
+                "\"estudantes\"",
+                "\"capacitação\"",
+                "\"UE[A-Z] [A-Z]\"",
+                "\"colegios\"",
+                "\"SEDEC\"",
+                "\"Plano de Desenvolvimento da Educação\"",
+                "\"reprovações\"",
+                "\"reprovação\"",
+                "\"Pré-Escola\"",
+                "\"aula\"",
+                "\"ensino médio\"",
+                "\"MBA\"",
+                "\"creche\"",
+                "\"classe de aula\"",
+                "\"aulas\"",
+                "\"sisu\"",
+                "\"Educação Científica\"",
+                "\"faculdade\"",
+                "\"usp\"",
+                "\"docente\"",
+                "\"alfabetizar\"",
+                "\"Mestrado\"",
+                "\"IF[A-Z]{2}\"",
+                "\"ENADE\"",
+                "\"desempenho escolar\"",
+                "\"Escola Técnica\"",
+                "\"farda\"",
+                "\"Pós-Graduação\"",
+                "\"Graduação\"",
+                "\"IF[A-Z] [A-Z] \"",
+                "\"escola\"",
+                "\"UF[A-Z] [A-Z]\"",
+                "\"educacionais\"",
+                "\"boletim\"",
+                "\"Educação a Distância\"",
+                "\"uniformes\"",
+                "\"aluno\"",
+                "\"SESI\"",
+                "\"Educação Escolar\"",
+                "\"Educação Fundamental\"",
+                "\"professoras\"",
+                "\"puc\"",
+                "\"Creis\"",
+                "\"universidades\"",
+                "\"Pré-Escolar\"",
+                "\"alunas\"",
+                "\"sisutec\"",
+                "\"SENAI\"",
+                "\"ensino\""
+            ],
+            "key": "EDU",
+            "title": "Educação"
+        },
+        {
+            "terms": [
+                "\"alcoolismo\"",
+                "\"nutrologos\"",
+                "\"Medicina Legal\"",
+                "\"Cardiologia\"",
+                "\"Perícia Médica\"",
+                "\"Pré-Natal\"",
+                "\"Cirurgia Pediátrica\"",
+                "\"Upinha\"",
+                "\"medico geral\"",
+                "\"cuidado integral\"",
+                "\"Otorrinolaringologia\"",
+                "\"Clínica\"",
+                "\"cubanos\"",
+                "\"Patologia Clínica\"",
+                "\"tomografia\"",
+                "\"cirurgias\"",
+                "\"Complexo Hospitalar Mangabeira\"",
+                "\"Cirurgia Torácica\"",
+                "\"Ginecologia e Obstetrícia\"",
+                "\"medico\"",
+                "\"Rede Escola\"",
+                "\"SAMU\"",
+                "\"Neurocirurgia\"",
+                "\"Hepatite\"",
+                "\"Mortalidade Infantil\"",
+                "\"internações\"",
+                "\"@pmjpSAUDE\"",
+                "\"medicações\"",
+                "\"Urologia\"",
+                "\"Medicina Esportiva\"",
+                "\"Imunologia\"",
+                "\"cruz vermelha\"",
+                "\"depressão\"",
+                "\"REMEDIOS\"",
+                "\"hospitalar\"",
+                "\"ambulatório\"",
+                "\"mais médicos\"",
+                "\"subnutrição\"",
+                "\"santa casa\"",
+                "\"hospital\"",
+                "\"Radiologia\"",
+                "\"Medicina Nuclear\"",
+                "\"Especialidades Médicas\"",
+                "\"Infectologia\"",
+                "\"Medicina Laboratorial\"",
+                "\"medicamentos\"",
+                "\"nutrologia\"",
+                "\"Traumatologia\"",
+                "\"médico\"",
+                "\"Pneumologia\"",
+                "\"obesos\"",
+                "\"Anestesia\"",
+                "\"Neurologia\"",
+                "\"Obstetrícia\"",
+                "\"urgência\"",
+                "\"Hematopoiéticos\"",
+                "\"remédio\"",
+                "\"Coloproctologia\"",
+                "\"Cirurgia da Cabeça\"",
+                "\"Cirurgia da Mão\"",
+                "\"pds52\"",
+                "\"Radioterapia\"",
+                "\"Cirurgia do Pescoço\"",
+                "\"hospitais\"",
+                "\"Cirurgia do Aparelho Digestivo\"",
+                "\"Reumatologia\"",
+                "\"Medicina Física e Reabilitação\"",
+                "\"UPAs\"",
+                "\"Lesão por esforço repetitivo\"",
+                "\"Pediatra\"",
+                "\"colo de útero\"",
+                "\"Medicina do Trabalho\"",
+                "\"UPA\"",
+                "\"tomógrafos\"",
+                "\"Angiologia\"",
+                "\"Santa Isabel\"",
+                "\"tomógrafo\"",
+                "\"PSF\"",
+                "\"farmácia\"",
+                "\"cocaína\"",
+                "\"Cirurgia Geral\"",
+                "\"#PDS52\"",
+                "\"Hospital Valentina Figueiredo\"",
+                "\"Cândida Vargas\"",
+                "\"Cirurgia Plástica\"",
+                "\"câncer\"",
+                "\"leito\"",
+                "\"Medicina de Família e Comunidade\"",
+                "\"Hematologia\"",
+                "\"Endoscopia\"",
+                "\"epidemias\"",
+                "\"Metabologia\"",
+                "\"leitos\"",
+                "\"Rede Cegonha\"",
+                "\"drogas\"",
+                "\"doenças\"",
+                "\"Nutrologia\"",
+                "\"Acunputura\"",
+                "\"Poli-clínica\"",
+                "\"drogarias\"",
+                "\"doença\"",
+                "\"mortalidade\"",
+                "\"medicos\"",
+                "\"Psicossocial\"",
+                "\"Ortopedia\"",
+                "\"Cirurgia Vascular\"",
+                "\"Pró-Pet\"",
+                "\"Patologia\"",
+                "\"urgências\"",
+                "\"remédios\"",
+                "\"vacinacao\"",
+                "\"Medicina do Tráfego\"",
+                "\"assistência hospitalar\"",
+                "\"SUS\"",
+                "\"medicina\"",
+                "\"obesidade\"",
+                "\"Genética Médica\"",
+                "\"Ginecologia\"",
+                "\"Cirurgia Cardiovascular\"",
+                "\"drogaria\"",
+                "\"dengue\"",
+                "\"Homeopatia\"",
+                "\"telessaude\"",
+                "\"Clínica Médica\"",
+                "\"lixo hospitalar\"",
+                "\"Cancerologia\"",
+                "\"Hemoterapia\"",
+                "\"Gastroenterologia\"",
+                "\"Complexo Hospitalar\"",
+                "\"Pediatria\"",
+                "\"Alergia\"",
+                "\"Clínico Geral\"",
+                "\"PET-Saúde\"",
+                "\"medicamento\"",
+                "\"desnutrição\"",
+                "\"farmácias\"",
+                "\"antirrabica\"",
+                "\"cirurgia\"",
+                "\"Anestesiologia\"",
+                "\"doenças crônicas\"",
+                "\"maternidade\"",
+                "\"Geriatria\"",
+                "\"maternidades\"",
+                "\"nutrologo\"",
+                "\"médicos\"",
+                "\"Oftalmologia\"",
+                "\"médicos cubanos\"",
+                "\"clínicas\"",
+                "\"epidemia\"",
+                "\"Mastologia\"",
+                "\"Reumatismo\"",
+                "\"Consultório\"",
+                "\"Nefrologia\"",
+                "\"Medicina Intensiva\"",
+                "\"Medicina Preventiva e Social\"",
+                "\"Dermatologia\"",
+                "\"droga\"",
+                "\"Psiquiatria\"",
+                "\"malária\"",
+                "\"internação\"",
+                "\"Endocrinologia\""
+            ],
+            "key": "SAU",
+            "title": "Saúde"
+        },
+        {
+            "terms": [
+                "\"13o\"",
+                "\"13º\"",
+                "\"aposentadoria\"",
+                "\"aposentadorias\"",
+                "\"carteiras de trabalho\"",
+                "\"concurso\"",
+                "\"concursos\"",
+                "\"contra cheque\"",
+                "\"contra-cheque\"",
+                "\"contratada\"",
+                "\"contratadas\"",
+                "\"contratado\"",
+                "\"contratados\"",
+                "\"contratação\"",
+                "\"contratações\"",
+                "\"demissão\"",
+                "\"demissões\"",
+                "\"desempregado\"",
+                "\"desempregados\"",
+                "\"desemprego\"",
+                "\"Décimo terceiro salário\"",
+                "\"décimo terceiro\"",
+                "\"Décimo terceiro\"",
+                "\"empregada doméstica\"",
+                "\"empregadas domésticas\"",
+                "\"empregador\"",
+                "\"empregadores\"",
+                "\"emprego\"",
+                "\"empregos\"",
+                "\"FGTS\"",
+                "\"fundo de garantia\"",
+                "\"férias\"",
+                "\"Geração de Emprego\"",
+                "\"INSS\"",
+                "\"laborais\"",
+                "\"laboral\"",
+                "\"nomeação\"",
+                "\"nomeações\"",
+                "\"patrão\"",
+                "\"patrões\"",
+                "\"proventos\"",
+                "\"reajuste salarial\"",
+                "\"reajustes salariais\"",
+                "\"remuneração\"",
+                "\"salário\"",
+                "\"salários\"",
+                "\"trabalhador\"",
+                "\"trabalhadores\"",
+                "\"manoel dias\"",
+                "\"ministro do trabalho e do emprego\"",
+                "\"ministerio do trabalho e do emprego\""
+            ],
+            "key": "TRA",
+            "title": "Trabalho"
+        },
+        {
+            "terms": [
+                "\"esburacado\"",
+                "\"obras\"",
+                "\"Iluminação Pública\"",
+                "\"estradas\"",
+                "\"usina \"",
+                "\"pavimentação\"",
+                "\"lixo\"",
+                "\"URBANIZAÇÃO\"",
+                "\"calçadas\"",
+                "\"periferia \"",
+                "\"pavimentado\"",
+                "\"Saneamento Básico\"",
+                "\"pavimentou\"",
+                "\"favelas\"",
+                "\"limpeza\"",
+                "\"transposição\"",
+                "\"obra \"",
+                "\"lombada\"",
+                "\"encosta\"",
+                "\"Esgotamento Sanitário\"",
+                "\"telefonia\"",
+                "\"construídos\"",
+                "\"Seinfra\"",
+                "\"Drenagem\"",
+                "\"Habitação\"",
+                "\"esgoto\"",
+                "\"pavimento\"",
+                "\"serviços urbanos\"",
+                "\"alargamento\"",
+                "\"construções \"",
+                "\"reformas\"",
+                "\"calçada\"",
+                "\"calçamentos?\"",
+                "\"Conjunto Habitacional\"",
+                "\"alagamentos\"",
+                "\"construção\"",
+                "\"ponte \"",
+                "\"construído\"",
+                "\"esgotamento sanitário\"",
+                "\"esgotos\"",
+                "\"asfalto\"",
+                "\"redes elétricas\"",
+                "\"rede elétrica\"",
+                "\"rodovias\"",
+                "\"galerias de águas\"",
+                "\"Abastecimento de Água\"",
+                "\"rebaixamento\"",
+                "\"Estação de Tratamento de Água\"",
+                "\"buracos\"",
+                "\"acessibilidade\"",
+                "\"Recapeamento\"",
+                "\"falta de água\"",
+                "\"adutora\"",
+                "\"casas\"",
+                "\"Adutoras\"",
+                "\"preservação\"",
+                "\"coleta\"",
+                "\"terraplenagem\"",
+                "\"pontes\"",
+                "\"saneamento\"",
+                "\"construída\"",
+                "\"lombadas\"",
+                "\"reforma \"",
+                "\"calçamento \"",
+                "\"usinas\"",
+                "\"racionamento\"",
+                "\"Secretaria de Infraestrutura\"",
+                "\"periferias \"",
+                "\"buracos \"",
+                "\"Moradia\"",
+                "\"asfáltico\"",
+                "\"iluminação\"",
+                "\"favela\""
+            ],
+            "key": "INF",
+            "title": "Infraestrutura"
+        },
+        {
+            "terms": [
+                "\"Ministério Público\"",
+                "\"armados\"",
+                "\"Defensoria Pública\"",
+                "\"revólver\"",
+                "\"presídios\"",
+                "\"assassinato\"",
+                "\"porrada\"",
+                "\"Batalhão\"",
+                "\"Centro Comunitário da Paz\"",
+                "\"peixeira\"",
+                "\"roubo\"",
+                "\"espancada\"",
+                "\"facas\"",
+                "\"PCC\"",
+                "\"cadeias\"",
+                "\"assalto\"",
+                "\"inquéritos\"",
+                "\"violência\"",
+                "\"homicídio\"",
+                "\"pauladas\"",
+                "\"Revolta\"",
+                "\"Sequestro\"",
+                "\"crime\"",
+                "\"porradas\"",
+                "\"inquérito\"",
+                "\"COMPAZ\"",
+                "\"mortes\"",
+                "mortos",
+                "mortas",
+                "tiro",
+                "tiros",
+                "\"Delinquentes\"",
+                "\"polícias\"",
+                "\"soldados\"",
+                "\"CAPS-AD\"",
+                "\"presídio\"",
+                "\"Pacto pela Vida\"",
+                "\"crimes\"",
+                "\"infrator\"",
+                "\"raptos\"",
+                "\"Segurança Pública\"",
+                "\"assassinas\"",
+                "\"espancados\"",
+                "\"estupro\"",
+                "\"Militar\"",
+                "\"soldado\"",
+                "\"SEMUSB\"",
+                "\"viatura\"",
+                "\"Violência contra a mulher\"",
+                "\"delinquente\"",
+                "\"policiais\"",
+                "\"assassina\"",
+                "\"delegacias\"",
+                "\"policiamento\"",
+                "\"delegado\"",
+                "\"homicídios\"",
+                "\"cadeia\"",
+                "\"policial\"",
+                "\"Vídeo-Monitoramento\"",
+                "\"furto\"",
+                "\"espancamentos\"",
+                "\"Guerra\"",
+                "\"espancado\"",
+                "\"furtos\"",
+                "\"criminal\"",
+                "\"assassinatos\"",
+                "\"Infratores\"",
+                "\"delegada\"",
+                "\"morte\"",
+                "\"rapto\"",
+                "\"secretaria de Segurança\"",
+                "\"assassinos\"",
+                "\"roubos\"",
+                "\"pistola\"",
+                "\"assaltos\"",
+                "\"Conselho Comunitário de Segurança\"",
+                "\"pm\"",
+                "\"peixeiras\"",
+                "\"polícia\"",
+                "\"assassino\"",
+                "\"Pacto\"",
+                "\"militares\"",
+                "\"delegacia\"",
+                "\"viaturas\"",
+                "\"paulada\"",
+                "\"armado\"",
+                "\"estupros\"",
+                "\"espancamento\"",
+                "\"investigação\""
+            ],
+            "key": "SEG",
+            "title": "Segurança"
+        },
+        {
+            "terms": [
+                "\"arrocho fiscal\"",
+                "\"BNDES\"",
+                "\"bolsa de valores\"",
+                "\"cambial\"",
+                "\"Cheque-Moradia\"",
+                "\"compra\"",
+                "\"compras\"",
+                "\"comércio\"",
+                "\"crise\"",
+                "\"crises\"",
+                "\"câmbio\"",
+                "\"deflação\"",
+                "\"demanda\"",
+                "\"demandas\"",
+                "\"depreciação\"",
+                "\"dívida\"",
+                "\"dívidas\"",
+                "\"Empreender\"",
+                "\"exportação\"",
+                "\"exportações\"",
+                "\"financeiro\"",
+                "\"financeiros\"",
+                "\"finanças\"",
+                "\"FPM\"",
+                "\"importação\"",
+                "\"importações\"",
+                "\"incentivo fiscais\"",
+                "\"Incentivo Fiscal\"",
+                "\"inflação\"",
+                "\"inflação\"",
+                "\"investimento\"",
+                "\"investimentos\"",
+                "\"investimentos\"",
+                "\"licitação\"",
+                "\"liquidez\"",
+                "\"miséria\"",
+                "\"moeda\"",
+                "\"moedas\"",
+                "\"oferta\"",
+                "\"ofertas\"",
+                "\"Orçamento Democrático\"",
+                "\"Pacto Social\"",
+                "\"perdas\"",
+                "\"PIB\"",
+                "\"poupança\"",
+                "\"privatização\"",
+                "\"privatizações\"",
+                "\"salariais\"",
+                "\"salarial\"",
+                "\"Salário mínimo\"",
+                "\"salário\"",
+                "\"salários\"",
+                "\"SEBRAE\"",
+                "\"venda\"",
+                "\"vendas\"",
+                "\"economistas\"",
+                "\"economista\"",
+                "\"super-ávit\"",
+                "\"superavit\"",
+                "\"deficit\"",
+                "\"déficit\"",
+                "\"casa da moeda\"",
+                "\"cambio\"",
+                "\"dólar\"",
+                "\"tarifa\"",
+                "\"custo\""
+            ],
+            "key": "ECO",
+            "title": "Economia"
+        },
+        {
+            "terms": [
+                "\"Assistência Social\"",
+                "\"Associação de Mulheres\"",
+                "\"cadeirante\"",
+                "\"Cadeirantes\"",
+                "\"Cidadania\"",
+                "\"Constituição\"",
+                "\"Cheque Moradia\"",
+                "\"deficiência\"",
+                "\"deficiente\"",
+                "\"Democracia\"",
+                "\"Direitos Humanos\"",
+                "\"direitos\"",
+                "\"Diversidade Cultural\"",
+                "\"Diversidade Racial\"",
+                "\"Esporte e Lazer\"",
+                "\"Esporte\"",
+                "\"Homofobia\"",
+                "\"homofobia\"",
+                "\"Homofóbico\"",
+                "\"IDH\"",
+                "\"idosa\"",
+                "\"idosas\"",
+                "\"Idoso\"",
+                "\"idosos\"",
+                "\"Igualdade Racial\"",
+                "\"Inclusão Digital\"",
+                "\"Indicadores Sociais\"",
+                "\"Lazer\"",
+                "\"Lei Maria da Penha\"",
+                "\"LGBT\"",
+                "\"LGBTTTT\"",
+                "\"Longevidade\"",
+                "\"Necessidades Especiais\"",
+                "\"ONG\"",
+                "\"Orientação Sexual\"",
+                "\"Paraíba virtual\"",
+                "\"Prostituição\"",
+                "\"prostituta\"",
+                "\"prostitutas\"",
+                "\"Racismo\"",
+                "\"Racista\"",
+                "\"Secretária da Mulher\"",
+                "\"Sindifisco-PB\"",
+                "\"surda\"",
+                "\"surdas\"",
+                "\"Surdo\"",
+                "\"surdos\"",
+                "\"Transexuais\"",
+                "\"Transexual\"",
+                "\"Índice de Desenvolvimento Humano\"",
+                "\"libras\"",
+                "\"surdo e mudo\"",
+                "\"surdos e mudos\"",
+                "\"mudos\""
+            ],
+            "key": "SOC",
+            "title": "Social e Direitos Humanos"
+        },
+        {
+            "terms": [
+                "\"Viaduto\"",
+                "\"Taxi\"",
+                "\"metrô\"",
+                "\"Trânsito\"",
+                "\"Semáforo\"",
+                "\"Passe\"",
+                "\"hotel\"",
+                "\"Passe Livre\"",
+                "\"DER- PB\"",
+                "\"Planejamento Urbano\"",
+                "\"Mobilidade Urbana\"",
+                "\"ônibus\"",
+                "\"Estradas\"",
+                "\"Girador\"",
+                "\"Rotatória\"",
+                "\"Ciclovia\"",
+                "\"Ciclofaixa\"",
+                "\"Anel viário\"",
+                "\"Guarda de Trânsito\"",
+                "\"Metrô\"",
+                "\"Calçadas\"",
+                "\"Parada de Ônibus\"",
+                "\"Faixa de Pedestres\"",
+                "\"Aeroporto\"",
+                "\"Bicicleta\"",
+                "\"Carona\"",
+                "\"Engarrafamento\"",
+                "\"faixa de pedestre\"",
+                "\"Trem\"",
+                "\"Via Pública\"",
+                "\"Corredor de Transporte\"",
+                "\"Transporte\"",
+                "\"SUPERINTENDÊNCIA EXECUTIVA DE MOBILIDADE URBANA\"",
+                "\"SEMOB\"",
+                "\"Pedestre\"",
+                "\"STTrans\"",
+                "\"Skate\"",
+                "\"Sinalização\"",
+                "\"Portadores de Necessidades Especiais\"",
+                "\"Trecho\"",
+                "\"BRT\"",
+                "\"Rodoviária\"",
+                "\"Circular\"",
+                "\"Corredor Viário\"",
+                "\"Ponto de ônibus\"",
+                "\"Terminal de Passageiros\"",
+                "\"Secretaria de Transporte\"",
+                "\"Acessibilidade\"",
+                "\"terminais de integração\""
+            ],
+            "key": "MOB",
+            "title": "Mobilidade e Transporte"
+        },
+        {
+            "terms": [
+                "\"hoteleiros\"",
+                "\"Áreas Históricas\"",
+                "\"Monumentos\"",
+                "\"fmc\"",
+                "\"Dança\"",
+                "\"Produção Cultural\"",
+                "\"Copa das Copas\"",
+                "\"Copa do Mundo\"",
+                "\"arte\"",
+                "\"Artesanato\"",
+                "\"Cinema\"",
+                "\"folclore\"",
+                "\"Folclore\"",
+                "\"Futebol\"",
+                "\"Quadrilhas Juninas\"",
+                "\"artes\"",
+                "\"muriçoca\"",
+                "\"fundo municipal de cultura\"",
+                "\"muricoquinha\"",
+                "\"São João\"",
+                "\"capoeira\"",
+                "\"Hotel\"",
+                "\"Arte\"",
+                "\"Copa\"",
+                "\"Manifestação Artística\"",
+                "\"Turismo\"",
+                "\"Cultural\"",
+                "\"Teatro\"",
+                "\"Gastronômico\"",
+                "\"Artista\"",
+                "\"Centro Histórico\"",
+                "\"casarao 34\"",
+                "\"Manifestação Folclórica\"",
+                "\"Quadrilha junina\"",
+                "\"samap\"",
+                "\"hoteleiro\"",
+                "\"Museus\"",
+                "\"Bar\"",
+                "\"picole de manga\"",
+                "\"FORRÓ\"",
+                "\"estádio\"",
+                "\"carnaval\"",
+                "\"cultura\"",
+                "\"oficinas culturais\"",
+                "\"eventos\"",
+                "\"Balé\"",
+                "\"Pousada\"",
+                "\"cafucu\"",
+                "\"Junino\"",
+                "\"Entretenimento\"",
+                "\"Gastronomia\"",
+                "\"sao joao\""
+            ],
+            "key": "CUL",
+            "title": "Cultura e Turismo"
+        },
+        {
+            "terms": [
+                "\"acompanhantes?\"",
+                "\"amateur?\"",
+                "\"anal\"",
+                "\"anais\"",
+                "\"arrombad[oa]s?\"",
+                "\"babaca?\"",
+                "\"babao\"",
+                "\"baboes\"",
+                "\"bacanal\"",
+                "\"belladonas?\"",
+                "\"bi-sexua.*\"",
+                "\"bissexua.*\"",
+                "\"bizarr*\"",
+                "\"boquetes?\"",
+                "\"bucetas?\"",
+                "\"bucetinhas?\"",
+                "\"bucetonas?\"",
+                "\"bundas?\"",
+                "\"bundudas?\"",
+                "\"burr[oa]s?\"",
+                "\"buttman\"",
+                "\"cacetes?\"",
+                "\"caga.*\"",
+                "\"calcinhas?\"",
+                "\"canalhas?\"",
+                "\"capetas?\"",
+                "\"caras? de pau\"",
+                "\"carai\"",
+                "\"caralhos?\"",
+                "\"chupadas?\"",
+                "\"chupando\"",
+                "\"chupou\"",
+                "\"clitoris\"",
+                "\"corrupt[oa]s?\"",
+                "\"cuzao\"",
+                "\"cuzinhos?\"",
+                "\"ditador\"",
+                "\"ditadores\"",
+                "\"ditadorzinh[oa]s?\"",
+                "\"ejaculacao\"",
+                "\"encoxadas?\"",
+                "\"enrabadas?\"",
+                "\"eretil\"",
+                "\"eroti[ck].*\"",
+                "\"erotismo\"",
+                "\"escorts?\"",
+                "\"escrot[oa]s?\"",
+                "\"excitantes?\"",
+                "\"fantasias? sexua.*\"",
+                "\"fetiches?\"",
+                "\"fetichistas?\"",
+                "\"fetish\"",
+                "\"fetixe\"",
+                "\"filh[oa]s? da puta+s?\"",
+                "\"fisting\"",
+                "\"fodas?\"",
+                "\"foda-se\"",
+                "\"fodendo\"",
+                "\"fotos amadoras\"",
+                "\"fuck\"",
+                "\"fudendo\"",
+                "\"fuleco\"",
+                "\"garotas? de programa\"",
+                "\"gostozudas?\"",
+                "\"gozadas?\"",
+                "\"greludas?\"",
+                "\"grupal\"",
+                "\"gsexy\"",
+                "\"hardcore\"",
+                "\"hentais\"",
+                "\"homossexua.*\"",
+                "\"hugecock\"",
+                "\"idiotas?\"",
+                "\"imbecil\"",
+                "\"impotencia\"",
+                "\"incestos?\"",
+                "\"kamassutra\"",
+                "\"kamasutra\"",
+                "\"ladrao\"",
+                "\"ladroes\"",
+                "\"lesbofetiche\"",
+                "\"lolitas?\"",
+                "\"lolitos?\"",
+                "\"masoquismo\"",
+                "\"massagistas?\"",
+                "\"masturba.*\"",
+                "\"megasex\"",
+                "\"menages?\"",
+                "\"merdas?\"",
+                "\"metendo\"",
+                "\"mierda\"",
+                "\"miserave.*\"",
+                "\"ninfetas?\"",
+                "\"ninfetinhas?\"",
+                "\"orgasm.*\"",
+                "\"orgias?\"",
+                "\"parasitas?\"",
+                "\"pausudas?\"",
+                "\"peitos?\"",
+                "\"peitudas?\"",
+                "\"pelad[oa]s?\"",
+                "\"penian[oa]s?\"",
+                "\"penis\"",
+                "\"picas?\"",
+                "\"piriguetes?\"",
+                "\"pirocas?\"",
+                "\"playboys?\"",
+                "\"podolatria\"",
+                "\"pompoar\"",
+                "\"pompoarismo\"",
+                "\"pompoarista\"",
+                "\"pornos?\"",
+                "\"pornografia\"",
+                "\"pornograficos?\"",
+                "\"pornstars?\"",
+                "\"porra\"",
+                "\"prostitutas?\"",
+                "\"punhetas?\"",
+                "\"pussy\"",
+                "\"putas?\"",
+                "\"putarias?\"",
+                "\"putinhas?\"",
+                "\"rabudas?\"",
+                "\"relax\"",
+                "\"sacanas?\"",
+                "\"sacana.*\"",
+                "\"sacane.*\"",
+                "\"sadismo\"",
+                "\"sado\"",
+                "\"sado-maso\"",
+                "\"sado-masoquismo\"",
+                "\"sadomaso\"",
+                "\"sadomasoquismos?\"",
+                "\"sadomasoquistas?\"",
+                "\"sadomazoquismos?\"",
+                "\"safad[oa]s?\"",
+                "\"e?scorts?\"",
+                "\"sebos[oa]s?\"",
+                "\"sex shop\"",
+                "\"sexboys?\"",
+                "\"sexgatas?\"",
+                "\"sexologista\"",
+                "\"sexshopp?ing\"",
+                "\"sexshops?\"",
+                "\"sexsites?\"",
+                "\"sextoys?\"",
+                "\"sexua.*\"",
+                "\"sexx\"",
+                "\"sexxxy\"",
+                "\"sexxxyclub\"",
+                "\"sexxy\"",
+                "\"sexxyshop\"",
+                "\"sexyclube\"",
+                "\"sexys?\"",
+                "\"sexyshop\"",
+                "\"shemales?\"",
+                "\"siriricas?\"",
+                "\"sotravestis?\"",
+                "\"surubas?\"",
+                "\"swingers?\"",
+                "\"swings?\"",
+                "\"swingueiras?\"",
+                "\"t-girls?\"",
+                "\"tarad[oa]?\"",
+                "\"tele-sexo\"",
+                "\"tesudas?\"",
+                "\"tgatas?\"",
+                "\"topsexy\"",
+                "\"toys\"",
+                "\"tranny\"",
+                "\"transas?\"",
+                "\"transando\"",
+                "\"transesex\"",
+                "\"transex\"",
+                "\"transexua.*\"",
+                "\"transgênero\"",
+                "\"travecas?\"",
+                "\"travecos?\"",
+                "\"travestis?\"",
+                "\"travetis\"",
+                "\"trepadas?\"",
+                "\"upskirt\"",
+                "\"vagabund[o]as?\"",
+                "\"vagina.*\"",
+                "\"vaginismo\"",
+                "\"fuder\"",
+                "\"foder\"",
+                "\"veados?\"",
+                "\"viadinhos?\"",
+                "\"viados?\"",
+                "\"vibrador.*\"",
+                "\"vibros\"",
+                "\"voyerismo\"",
+                "\"voyeur.*\"",
+                "\"vá tomar no\"",
+                "\"xoxotas?\"",
+                "\"xupaxotas?\"",
+                "\"zoofilias?\""
+            ],
+            "key": "OFE",
+            "title": "Palavras Ofensivas"
+        },
+        {
+            "terms": [
+                "\"secitec\"",
+                "\"casa brasil\"",
+                "\"Rede Metropolitana\"",
+                "\"Semana Municipal de Ciência e Tecnologia\"",
+                "\"FashionTech\"",
+                "\"Estação da Moda\"",
+                "\"Forumtec\"",
+                "\"Parque tecnologico\"",
+                "\"@estacaodaModaJP\"",
+                "\"EstacaodamodaPMJP\""
+            ],
+            "key": "TEC",
+            "title": "Ciência e Tecnologia"
+        },
+        {
+            "terms": [
+                "\"Juventude\"",
+                "\"Esportes\"",
+                "\"Recreação\"",
+                "\"vida saudável\"",
+                "\"qualidade de vida\"",
+                "\"inclusão social\"",
+                "\"integração social\"",
+                "\"formação esportiva\"",
+                "\"esportivo\"",
+                "\"futebol\"",
+                "\"natação\"",
+                "\"basquete\"",
+                "\"volei\"",
+                "\"surf\"",
+                "\"squash\"",
+                "\"corrida\"",
+                "\"maratona\"",
+                "\"bike\"",
+                "\"ciclismo\"",
+                "\"skate\"",
+                "\"judo\"",
+                "\"taekwondo\"",
+                "\"handbol\"",
+                "\"handball\"",
+                "\"hipismo\"",
+                "\"atletismo\"",
+                "\"Secretaria Municipal da Juventude Esporte e Recreação\"",
+                "\"SEJER\"",
+                "\"Taça Cidade\"",
+                "\"Maratona\"",
+                "\"Jogos escolares\""
+            ],
+            "key": "ESP",
+            "title": "Juventude, Esporte e Recreação"
+        },
+        {
+            "terms": [
+                "\"Aeroclube\""
+            ],
+            "key": "2979411",
+            "title": "Aeroclube"
+        },
+        {
+            "terms": [
+                "\"Água Fria\""
+            ],
+            "key": "3065235",
+            "title": "Água Fria"
+        },
+        {
+            "terms": [
+                "\"Altiplano\""
+            ],
+            "key": "3062495",
+            "title": "Altiplano Cabo Branco"
+        },
+        {
+            "terms": [
+                "\"Alto do Céu\""
+            ],
+            "key": "3064514",
+            "title": "Alto do Céu"
+        },
+        {
+            "terms": [
+                "\"Alto do Mateus\""
+            ],
+            "key": "3064262",
+            "title": "Alto do Mateus"
+        },
+        {
+            "terms": [
+                "\"Anatólia\""
+            ],
+            "key": "3065226",
+            "title": "Anatólia"
+        },
+        {
+            "terms": [
+                "\"Bairro das Indústrias\""
+            ],
+            "key": "3064263",
+            "title": "Bairro das Indústrias"
+        },
+        {
+            "terms": [
+                "\"Bairro dos Estados\""
+            ],
+            "key": "3064764",
+            "title": "Bairro dos Estados"
+        },
+        {
+            "terms": [
+                "\"Bairro dos Ipês\""
+            ],
+            "key": "3064741",
+            "title": "Bairro dos Ipês"
+        },
+        {
+            "terms": [
+                "\"Bancários\""
+            ],
+            "key": "3065227",
+            "title": "Bancários"
+        },
+        {
+            "terms": [
+                "\"Gramame\""
+            ],
+            "key": "3064215",
+            "title": "Gramame"
+        },
+        {
+            "terms": [
+                "\"Bessa\""
+            ],
+            "key": "2979381",
+            "title": "Bessa"
+        },
+        {
+            "terms": [
+                "\"Brisamar\""
+            ],
+            "key": "3064955",
+            "title": "Brisamar"
+        },
+        {
+            "terms": [
+                "\"Cabo Branco\""
+            ],
+            "key": "3062456",
+            "title": "Cabo Branco"
+        },
+        {
+            "terms": [
+                "\"Castelo Branco\""
+            ],
+            "key": "3065228",
+            "title": "Castelo Branco"
+        },
+        {
+            "terms": [
+                "\"Centro\""
+            ],
+            "key": "3880197",
+            "title": "Centro"
+        },
+        {
+            "terms": [
+                "\"Cidade dos Colibris\""
+            ],
+            "key": "3065229",
+            "title": "Cidade dos Colibris"
+        },
+        {
+            "terms": [
+                "\"Costa do Sol\""
+            ],
+            "key": "3064100",
+            "title": "Costa do Sol"
+        },
+        {
+            "terms": [
+                "\"Costa e Silva\""
+            ],
+            "key": "3065151",
+            "title": "Costa e Silva"
+        },
+        {
+            "terms": [
+                "\"Cristo Redentor\""
+            ],
+            "key": "3065119",
+            "title": "Cristo Redentor"
+        },
+        {
+            "terms": [
+                "\"Cruz das Armas\""
+            ],
+            "key": "3066318",
+            "title": "Cruz das Armas"
+        },
+        {
+            "terms": [
+                "\"Cuiá\""
+            ],
+            "key": "3065230",
+            "title": "Cuiá"
+        },
+        {
+            "terms": [
+                "\"Distrito Industrial\""
+            ],
+            "key": "3064264",
+            "title": "Distrito Industrial"
+        },
+        {
+            "terms": [
+                "\"Ernani Sátiro\""
+            ],
+            "key": "3065152",
+            "title": "Ernani Sátyro"
+        },
+        {
+            "terms": [
+                "\"Ernesto Geisel\"",
+                "Geisel"
+            ],
+            "key": "3065153",
+            "title": "Ernesto Geisel"
+        },
+        {
+            "terms": [
+                "\"Expedicionários\""
+            ],
+            "key": "3064961",
+            "title": "Expedicionários"
+        },
+        {
+            "terms": [
+                "\"Funcionários\""
+            ],
+            "key": "3065154",
+            "title": "Funcionários"
+        },
+        {
+            "terms": [
+                "\"Grotão\""
+            ],
+            "key": "3065155",
+            "title": "Grotão"
+        },
+        {
+            "terms": [
+                "\"Ilha do Bispo\""
+            ],
+            "key": "3064379",
+            "title": "Ilha do Bispo"
+        },
+        {
+            "terms": [
+                "\"Jaguaribe\""
+            ],
+            "key": "3065048",
+            "title": "Jaguaribe"
+        },
+        {
+            "terms": [
+                "\"Jardim Cidade Universitária\""
+            ],
+            "key": "3065231",
+            "title": "Jardim Cidade Universitária"
+        },
+        {
+            "terms": [
+                "\"Jardim Oceania\""
+            ],
+            "key": "2979412",
+            "title": "Jardim Oceania"
+        },
+        {
+            "terms": [
+                "\"Jardim São Paulo\""
+            ],
+            "key": "3065232",
+            "title": "Jardim São Paulo"
+        },
+        {
+            "terms": [
+                "\"Jardim Veneza\""
+            ],
+            "key": "3064265",
+            "title": "Jardim Veneza"
+        },
+        {
+            "terms": [
+                "\"José Américo\""
+            ],
+            "key": "3065233",
+            "title": "José Américo"
+        },
+        {
+            "terms": [
+                "\"João Agripino\""
+            ],
+            "key": "3065255",
+            "title": "João Agripino"
+        },
+        {
+            "terms": [
+                "\"João Paulo II\""
+            ],
+            "key": "3065156",
+            "title": "João Paulo II"
+        },
+        {
+            "terms": [
+                "\"Manaíra\""
+            ],
+            "key": "3062425",
+            "title": "Manaíra"
+        },
+        {
+            "terms": [
+                "\"Mandacaru\""
+            ],
+            "key": "3064765",
+            "title": "Mandacaru"
+        },
+        {
+            "terms": [
+                "\"Mangabeira\""
+            ],
+            "key": "3065234",
+            "title": "Mangabeira"
+        },
+        {
+            "terms": [
+                "\"Miramar\""
+            ],
+            "key": "3064956",
+            "title": "Miramar"
+        },
+        {
+            "terms": [
+                "\"Muçumagro\""
+            ],
+            "key": "3064138",
+            "title": "Muçumagro"
+        },
+        {
+            "terms": [
+                "\"Oitizeiro\""
+            ],
+            "key": "3064268",
+            "title": "Oitizeiro"
+        },
+        {
+            "terms": [
+                "\"Padre Zé\""
+            ],
+            "key": "3064766",
+            "title": "Padre Zé"
+        },
+        {
+            "terms": [
+                "\"Paratibe\""
+            ],
+            "key": "3064203",
+            "title": "Paratibe"
+        },
+        {
+            "terms": [
+                "\"Pedro Gondim\""
+            ],
+            "key": "3064957",
+            "title": "Pedro Gondim"
+        },
+        {
+            "terms": [
+                "\"Penha\""
+            ],
+            "key": "3062952",
+            "title": "Penha"
+        },
+        {
+            "terms": [
+                "\"Planalto da Boa Esperança\""
+            ],
+            "key": "3064193",
+            "title": "Planalto da Boa Esperança"
+        },
+        {
+            "terms": [
+                "\"Ponta do Seixas\""
+            ],
+            "key": "3062496",
+            "title": "Ponta do Seixas"
+        },
+        {
+            "terms": [
+                "\"Portal do Sol\""
+            ],
+            "key": "3062497",
+            "title": "Portal do Sol"
+        },
+        {
+            "terms": [
+                "\"Rangel\""
+            ],
+            "key": "3065121",
+            "title": "Rangel"
+        },
+        {
+            "terms": [
+                "\"Róger\""
+            ],
+            "key": "3064515",
+            "title": "Roger"
+        },
+        {
+            "terms": [
+                "\"São José\""
+            ],
+            "key": "3064958",
+            "title": "São José"
+        },
+        {
+            "terms": [
+                "\"Tambauzinho\""
+            ],
+            "key": "3064962",
+            "title": "Tambauzinho"
+        },
+        {
+            "terms": [
+                "\"Tambaú\""
+            ],
+            "key": "3062452",
+            "title": "Tambaú"
+        },
+        {
+            "terms": [
+                "\"Tambiá\""
+            ],
+            "key": "3064516",
+            "title": "Tambiá"
+        },
+        {
+            "terms": [
+                "\"Torre\""
+            ],
+            "key": "3064968",
+            "title": "Torre"
+        },
+        {
+            "terms": [
+                "\"Treze de Maio\""
+            ],
+            "key": "3064767",
+            "title": "Treze de Maio"
+        },
+        {
+            "terms": [
+                "\"Trincheiras\""
+            ],
+            "key": "3065049",
+            "title": "Trincheiras"
+        },
+        {
+            "terms": [
+                "\"Valentina\""
+            ],
+            "key": "3064194",
+            "title": "Valentina Figueiredo"
+        },
+        {
+            "terms": [
+                "\"Varadouro\""
+            ],
+            "key": "3064517",
+            "title": "Varadouro"
+        }
+    ],
+    "offenseTag": "OFE",
+    "host": "zin3.digitalchoice.com.br",
+    "extractionKey": "lcartaxox",
+    "groups": [
+        {
+            "title": "Temas",
+            "key": "THEMES",
+            "tags": [
+                "SOC",
+                "ESP",
+                "TRA",
+                "TEC",
+                "SEG",
+                "ECO",
+                "POL",
+                "EDU",
+                "MOB",
+                "INF",
+                "CUL",
+                "SAU"
+            ]
+        },
+        {
+            "title": "Palavras Ofensivas",
+            "key": "OFENSAS",
+            "tags": [
+                "OFE"
+            ]
+        },
+        {
+            "extra": [
+                {
+                    "key": "geoSuffix",
+                    "value": "João Pessoa,Paraíba,Brasil"
+                }
+            ],
+            "tags": [
+                "2979411",
+                "3065235",
+                "3062495",
+                "3064514",
+                "3064262",
+                "3065226",
+                "3064263",
+                "3064764",
+                "3064741",
+                "3065227",
+                "3064215",
+                "2979381",
+                "3064955",
+                "3062456",
+                "3065228",
+                "3880197",
+                "3065229",
+                "3064100",
+                "3065151",
+                "3065119",
+                "3066318",
+                "3065230",
+                "3064264",
+                "3065152",
+                "3065153",
+                "3064961",
+                "3065154",
+                "3064215",
+                "3065155",
+                "3064379",
+                "3065048",
+                "3065231",
+                "2979412",
+                "3065232",
+                "3064265",
+                "3064265",
+                "3065233",
+                "3065255",
+                "3065156",
+                "3062425",
+                "3064765",
+                "3065234",
+                "3064956",
+                "3064138",
+                "3064268",
+                "3064766",
+                "3064203",
+                "3064957",
+                "3062952",
+                "3064193",
+                "3062496",
+                "3062497",
+                "3065121",
+                "3064515",
+                "3064958",
+                "3064962",
+                "3062452",
+                "3064516",
+                "3064968",
+                "3064767",
+                "3065049",
+                "3064194",
+                "3064517"
+            ],
+            "key": "BAIRROSJP",
+            "title": "Bairros de João Pessoa"
+        }
+    ],
+    "dataSources": [
+        {
+            "source": "Facebook",
+            "id": "LucianoCartaxoPires",
+            "UserID": "lcartaxo",
+            "UserType": "termgroup"
+        },
+        {
+            "source": "Facebook",
+            "id": "207219906074822",
+            "UserID": "lcartaxo",
+            "UserType": "termgroup"
+        },
+        {
+            "source": "Twitter",
+            "id": "Luciano_Cartaxo",
+            "UserID": "lcartaxo",
+            "UserType": "termgroup"
+        },
+        {
+            "source": "Instagram",
+            "id": "luciano_cartaxo",
+            "UserID": "lcartaxo",
+            "UserType": "termgroup"
+        },
+        {
+            "source": "Instagram",
+            "id": "lucianocartaxo",
+            "UserID": "lcartaxo",
+            "UserType": "termgroup"
+        },
+        {
+            "source": "Facebook",
+            "id": "nonatobandeirajp",
+            "UserID": "nonatobandeira",
+            "UserType": "termgroup"
+        },
+        {
+            "source": "Twitter",
+            "id": "nonatobandeira",
+            "UserID": "nonatobandeira",
+            "UserType": "termgroup"
+        },
+        {
+            "source": "Instagram",
+            "id": "nonatobandeira",
+            "UserID": "nonatobandeira",
+            "UserType": "termgroup"
+        },
+        {
+            "source": "Facebook",
+            "id": "pmjponline",
+            "UserID": "PMJP",
+            "UserType": "termgroup"
+        },
+        {
+            "source": "Twitter",
+            "id": "pmjponline",
+            "UserID": "PMJP",
+            "UserType": "termgroup"
+        },
+        {
+            "source": "Instagram",
+            "id": "pmjponline",
+            "UserID": "PMJP",
+            "UserType": "termgroup"
+        },
+        {
+            "source": "Youtube",
+            "id": "pmjponline",
+            "UserID": "PMJP",
+            "UserType": "termgroup"
+        },
+        {
+            "source": "Twitter",
+            "id": "semobjp",
+            "UserID": "SEMOB",
+            "UserType": "termgroup"
+        },
+
+        {
+            "source": "Facebook",
+            "id": "CBNJP",
+            "UserID": "cbnjp",
+            "UserType": "press"
+        },
+        {
+            "source": "RSS",
+            "id": "http://www.pbagora.com.br/ew3press/rss/paraiba.xml",
+            "UserID": "portal_pbagora",
+            "UserType": "press"
+        },
+        {
+            "source": "RSS",
+            "id": "http://www.pbagora.com.br/ew3press/rss/politica.xml",
+            "UserID": "portal_pbagora",
+            "UserType": "press"
+        },
+        {
+            "source": "Facebook",
+            "id": "wscom",
+            "UserID": "wscom",
+            "UserType": "press"
+        },
+        {
+            "source": "Facebook",
+            "id": "jornaldaparaiba",
+            "UserID": "jornaldapb",
+            "UserType": "press"
+        },
+        {
+            "source": "Twitter",
+            "id": "jornaldapb",
+            "UserID": "jornaldapb",
+            "UserType": "press"
+        },
+        {
+            "source": "RSS",
+            "id": "http://www.jornaldaparaiba.com.br/feed",
+            "UserID": "jornaldapb",
+            "UserType": "press"
+        },
+        {
+            "source": "Facebook",
+            "id": "clubefmjampa",
+            "UserID": "clubefmjampa",
+            "UserType": "press"
+        },
+        {
+            "source": "Facebook",
+            "id": "MIXFMjoaopessoa",
+            "UserID": "mixjp",
+            "UserType": "press"
+        },
+        {
+            "source": "Facebook",
+            "id": "tvparaiba",
+            "UserID": "tvparaiba",
+            "UserType": "press"
+        },
+        {
+            "source": "Facebook",
+            "id": "ResumoPB",
+            "UserID": "resumopb",
+            "UserType": "press"
+        },
+        {
+            "source": "Facebook",
+            "id": "DiariodaParaiba",
+            "UserID": "diariodapb",
+            "UserType": "press"
+        },
+        {
+            "source": "Facebook",
+            "id": "sucesso92fm",
+            "UserID": "sucesso92fm",
+            "UserType": "press"
+        },
+        {
+            "source": "Facebook",
+            "id": "polemicapb",
+            "UserID": "polemicapb",
+            "UserType": "press"
+        },
+        {
+            "source": "Facebook",
+            "id": "PortalMaisPB",
+            "UserID": "maispb",
+            "UserType": "press"
+        },
+        {
+            "source": "Facebook",
+            "id": "blogheldermoura",
+            "UserID": "heldermoura",
+            "UserType": "press"
+        },
+        {
+            "source": "Facebook",
+            "id": "blogluistorres",
+            "UserID": "Luistorrespb",
+            "UserType": "press"
+        },
+        {
+            "source": "Facebook",
+            "id": "portalcorreio",
+            "UserID": "portalcorreio",
+            "UserType": "press"
+        },
+        {
+            "source": "Facebook",
+            "id": "portalpbagora",
+            "UserID": "portalpbagora",
+            "UserType": "press"
+        },
+        {
+            "source": "Facebook",
+            "id": "uniaogovpb",
+            "UserID": "uniaogovpb",
+            "UserType": "press"
+        },
+        {
+            "source": "Twitter",
+            "id": "uniaogovpb",
+            "UserID": "uniaogovpb",
+            "UserType": "press"
+        },
+        {
+            "source": "Facebook",
+            "id": "paraibaonline",
+            "UserID": "paraiba_online",
+            "UserType": "press"
+        },
+        {
+            "source": "Twitter",
+            "id": "paraiba_online",
+            "UserID": "paraiba_online",
+            "UserType": "press"
+        },
+        {
+            "source": "Facebook",
+            "id": "sebraestartpb",
+            "UserType": "public"
+        },
+        {
+            "source": "Facebook",
+            "id": "915328565160263",
+            "UserType": "public"
+        },
+        {
+            "source": "Facebook",
+            "id": "apjp.co.br",
+            "UserType": "public"
+        },
+        {
+            "source": "Facebook",
+            "id": "apaejp",
+            "UserType": "public"
+        },
+        {
+            "source": "Facebook",
+            "id": "jpsmagno",
+            "UserType": "public"
+        },
+        {
+            "source": "Facebook",
+            "id": "paginajpqq",
+            "UserType": "public"
+        },
+        {
+            "source": "Facebook",
+            "id": "444551628919635",
+            "UserType": "public"
+        },
+        {
+            "source": "Facebook",
+            "id": "560888127256759",
+            "UserType": "public"
+        },
+        {
+            "source": "Facebook",
+            "id": "realrcoutinho",
+            "UserID": "realrcoutinho",
+            "UserType": "authority"
+        },
+        {
+            "source": "Twitter",
+            "id": "realrcoutinho",
+            "UserID": "realrcoutinho",
+            "UserType": "authority"
+        },
+        {
+            "source": "Instagram",
+            "id": "realrcoutinho",
+            "UserID": "realrcoutinho",
+            "UserType": "authority"
+        },
+        {
+            "source": "Youtube",
+            "id": "RCoutinho2010",
+            "UserID": "realrcoutinho",
+            "UserType": "authority"
+        },
+        {
+            "source": "Facebook",
+            "id": "lucianoagrapb",
+            "UserID": "lucianoagra",
+            "UserType": "authority"
+        },
+        {
+            "source": "Twitter",
+            "id": "lucianoagra",
+            "UserID": "lucianoagra",
+            "UserType": "authority"
+        },
+        {
+            "source": "Facebook",
+            "id": "158581347599844",
+            "UserID": "TREPBjusbr",
+            "UserType": "authority"
+        },
+        {
+            "source": "Twitter",
+            "id": "TREPBjusbr",
+            "UserID": "TREPBjusbr",
+            "UserType": "authority"
+        },
+        {
+            "source": "Facebook",
+            "id": "depruycarneiro",
+            "UserID": "depruycarneiro",
+            "UserType": "authority"
+        },
+        {
+            "source": "Twitter",
+            "id": "depruycarneiro",
+            "UserID": "depruycarneiro",
+            "UserType": "authority"
+        },
+        {
+            "source": "Facebook",
+            "id": "Romero45CG",
+            "UserID": "Romero_Rodrigues",
+            "UserType": "authority"
+        },
+        {
+            "source": "Twitter",
+            "id": "RomeroRVeiga",
+            "UserID": "Romero_Rodrigues",
+            "UserType": "authority"
+        },
+        {
+            "source": "Facebook",
+            "id": "128568613845850",
+            "UserID": "efraim_morais",
+            "UserType": "authority"
+        },
+        {
+            "source": "Twitter",
+            "id": "efraim_morais",
+            "UserID": "efraim_morais",
+            "UserType": "authority"
+        },
+        {
+            "source": "Facebook",
+            "id": "Daniella11CG",
+            "UserID": "Daniella11CG",
+            "UserType": "authority"
+        },
+        {
+            "source": "Twitter",
+            "id": "Daniella11CG",
+            "UserID": "Daniella11CG",
+            "UserType": "authority"
+        },
+        {
+            "source": "Facebook",
+            "id": "CiceroLucenapb",
+            "UserID": "cicerolucena",
+            "UserType": "authority"
+        },
+        {
+            "source": "Twitter",
+            "id": "cicerolucena",
+            "UserID": "cicerolucena",
+            "UserType": "authority"
+        },
+        {
+            "source": "Facebook",
+            "id": "121404264622931",
+            "UserID": "ptrodrigosoares",
+            "UserType": "authority"
+        },
+        {
+            "source": "Twitter",
+            "id": "ptrodrigosoares",
+            "UserID": "ptrodrigosoares",
+            "UserType": "authority"
+        },
+        {
+            "source": "Facebook",
+            "id": "raonibmendes",
+            "UserID": "raonibmendes",
+            "UserType": "authority"
+        },
+        {
+            "source": "Facebook",
+            "id": "155479177935134",
+            "UserID": "eduardofuba",
+            "UserType": "authority"
+        },
+        {
+            "source": "Facebook",
+            "id": "bira.pereira.7",
+            "UserID": "bira.pereira",
+            "UserType": "authority"
+        },
+        {
+            "source": "Facebook",
+            "id": "419394928172114",
+            "UserID": "Djanilson-da-Fonseca",
+            "UserType": "authority"
+        },
+        {
+            "source": "Facebook",
+            "id": "vereadorzezinhobotafogo",
+            "UserID": "zezinhobotafogo",
+            "UserType": "authority"
+        },
+        {
+            "source": "Facebook",
+            "id": "joaoalfredopsol",
+            "UserID": "joaoalfredopsol",
+            "UserType": "authority"
+        },
+        {
+            "source": "Facebook",
+            "id": "maqcartaxo",
+            "UserID": "MarcoAntonioQueiroga",
+            "UserType": "authority"
+        },
+        {
+            "source": "Facebook",
+            "id": "vereadoredsoncruz",
+            "UserID": "edsoncruz",
+            "UserType": "authority"
+        },
+        {
+            "source": "Facebook",
+            "id": "VereadoraElizaVirginia",
+            "UserID": "ElizaVirginia",
+            "UserType": "authority"
+        },
+        {
+            "source": "Facebook",
+            "id": "felipeleitaovereador",
+            "UserID": "felipeleitao",
+            "UserType": "authority"
+        },
+        {
+            "source": "Facebook",
+            "id": "joaocorujinha",
+            "UserID": "joaocorujinha",
+            "UserType": "authority"
+        },
+        {
+            "source": "Facebook",
+            "id": "VereadorJoaoDosSantos",
+            "UserID": "JoaoDosSantos",
+            "UserType": "authority"
+        },
+        {
+            "source": "Facebook",
+            "id": "raissalacerda.ii",
+            "UserID": "raissalacerda.ii",
+            "UserType": "authority"
+        },
+        {
+            "source": "Facebook",
+            "id": "250731225046757",
+            "UserID": "santino",
+            "UserType": "authority"
+        },
+        {
+            "source": "Facebook",
+            "id": "camaramunicipal.joaopessoa",
+            "UserID": "camaramunicipal.joaopessoa",
+            "UserType": "authority"
+        },
+        {
+            "source": "Facebook",
+            "id": "AG40.444",
+            "UserID": "adrianogaldino.cezardearaujo",
+            "UserType": "authority"
+        },
+        {
+            "source": "Facebook",
+            "id": "ManoelJuniorOficial",
+            "UserID": "ManoelJunior",
+            "UserType": "authority"
+        },
+        {
+            "source": "Facebook",
+            "id": "brunoclimab",
+            "UserID": "brunoclimab",
+            "UserType": "authority"
+        },
+        {
+            "source": "Facebook",
+            "id": "BubaGermano",
+            "UserID": "BubaGermano",
+            "UserType": "authority"
+        },
+        {
+            "source": "Facebook",
+            "id": "caio.roberto.969",
+            "UserID": "caio.roberto",
+            "UserType": "authority"
+        },
+        {
+            "source": "Facebook",
+            "id": "camila45123",
+            "UserID": "camila.toscano",
+            "UserType": "authority"
+        },
+        {
+            "source": "Facebook",
+            "id": "dinaldinho25",
+            "UserID": "dinaldinho",
+            "UserType": "authority"
+        },
+        {
+            "source": "Facebook",
+            "id": "dodadetiao14369",
+            "UserID": "dodadetiao",
+            "UserType": "authority"
+        },
+        {
+            "source": "Facebook",
+            "id": "100004190236833",
+            "UserID": "edmilsonsoares",
+            "UserType": "authority"
+        },
+        {
+            "source": "Facebook",
+            "id": "depbrancomendes",
+            "UserID": "depbrancomendes",
+            "UserType": "authority"
+        },
+        {
+            "source": "Facebook",
+            "id": "EstelaBezerraOficial",
+            "UserID": "EstelaBezerra",
+            "UserType": "authority"
+        },
+        {
+            "source": "Facebook",
+            "id": "342198275932194",
+            "UserID": "galegodesousa",
+            "UserType": "authority"
+        },
+        {
+            "source": "Facebook",
+            "id": "genivalm",
+            "UserID": "genivalm",
+            "UserType": "authority"
+        },
+        {
+            "source": "Facebook",
+            "id": "gervasiomaiapb",
+            "UserID": "gervasiomaia",
+            "UserType": "authority"
+        },
+        {
+            "source": "Facebook",
+            "id": "hervaziobezerra40123",
+            "UserID": "hervaziobezerra",
+            "UserType": "authority"
+        },
+        {
+            "source": "Facebook",
+            "id": "janduhycarneiro",
+            "UserID": "janduhycarneiro",
+            "UserType": "authority"
+        },
+        {
+            "source": "Facebook",
+            "id": "DepJeovaCampos",
+            "UserID": "jeova.vieiracampos",
+            "UserType": "authority"
+        },
+        {
+            "source": "Facebook",
+            "id": "joaoboscocarneirojunior17111",
+            "UserID": "joaobosco.carneirojunior",
+            "UserType": "authority"
+        },
+        {
+            "source": "Facebook",
+            "id": "joaogoncalvesdeputado",
+            "UserID": "joaogoncalves",
+            "UserType": "authority"
+        },
+        {
+            "source": "Facebook",
+            "id": "231060227084900",
+            "UserID": "joaohenrique",
+            "UserType": "authority"
+        },
+        {
+            "source": "Facebook",
+            "id": "DeputadoJutayMeneses",
+            "UserID": "JutayMeneses",
+            "UserType": "authority"
+        },
+        {
+            "source": "Facebook",
+            "id": "lindolfopirespb",
+            "UserID": "lindolfopires",
+            "UserType": "authority"
+        },
+        {
+            "source": "Facebook",
+            "id": "nabor.wanderley",
+            "UserID": "nabor.wanderley",
+            "UserType": "authority"
+        },
+        {
+            "source": "Facebook",
+            "id": "142160922621054",
+            "UserID": "ranierypaulino",
+            "UserType": "authority"
+        },
+        {
+            "source": "Facebook",
+            "id": "RicardoBarbosaPb",
+            "UserID": "RicardoBarbosa",
+            "UserType": "authority"
+        },
+        {
+            "source": "Facebook",
+            "id": "tovarcorreialima",
+            "UserID": "tovarcorreialima",
+            "UserType": "authority"
+        },
+        {
+            "source": "Facebook",
+            "id": "trocollijr",
+            "UserID": "trocollijr",
+            "UserType": "authority"
+        },
+        {
+            "source": "Facebook",
+            "id": "estacao.cabobranco",
+            "UserID": "PMJP",
+            "UserType": "termgroup"
+        },
+        {
+            "source": "RSS",
+            "id": "http://www.claudiacarvalho.com/feeds/posts/default",
+            "UserID": "claudiacrvlh",
+            "UserType": "press"
+        },
+        {
+            "source": "Facebook",
+            "id": "EmersonMofi",
+            "UserID": "EmersonMofi",
+            "UserType": "public"
+        },
+        {
+            "source": "Facebook",
+            "id": "437869992935883",
+            "UserType": "public"
+        },
+        {
+            "source": "Facebook",
+            "id": "PortalMangabeira",
+            "UserType": "public"
+        },
+        {
+            "source": "RSS",
+            "id": "http://josiasdesouza.blogosfera.uol.com.br/feed/",
+            "UserID": "josiasdesouza",
+            "UserType": "press"
+        },
+        {
+            "source": "RSS",
+            "id": "http://www.blogdogordinho.com.br/feed/",
+            "UserID": "gordinho",
+            "UserType": "press"
+        },
+        {
+            "source": "RSS",
+            "id": "http://www.giropb.com.br/rss.xml",
+            "UserID": "giropb",
+            "UserType": "press"
+        },
+        {
+            "source": "RSS",
+            "id": "http://www.paraiba.com.br/rss",
+            "UserID": "paraiba",
+            "UserType": "press"
+        },
+        {
+            "source": "RSS",
+            "id": "http://www.sitescorreio.com.br/blogs/wfarias/feed/",
+            "UserID": "wfarias",
+            "UserType": "press"
+        },
+        {
+            "source": "RSS",
+            "id": "http://blogdojairoreporter.blogspot.com.br/feeds/posts/default?alt=rss",
+            "UserID": "blogdojairoreporter",
+            "UserType": "press"
+        },
+        {
+            "source": "RSS",
+            "id": "http://www.blogdotiaolucena.com.br/rss.xml",
+            "UserID": "tiaolucena",
+            "UserType": "press"
+        },
+        {
+            "source": "RSS",
+            "id": "http://rpscom1.blogspot.com.br/feeds/posts/default?alt=rss",
+            "UserID": "rpscom",
+            "UserType": "press"
+        },
+        {
+            "source": "RSS",
+            "id": "http://sopoliticapb.blogspot.com.br/feeds/posts/default?alt=rss",
+            "UserID": "sopoliticapb",
+            "UserType": "press"
+        },
+        {
+            "source": "Facebook",
+            "id": "JampaDepressao",
+            "UserID": "JampaDepressao",
+            "UserType": "public"
+        },
+        {
+            "source": "Facebook",
+            "id": "faceenewsjp",
+            "UserID": "faceenewsjp",
+            "UserType": "public"
+        },
+        {
+            "source": "Facebook",
+            "id": "209924772504679",
+            "UserID": "grupoJP",
+            "UserType": "public"
+        },
+        {
+            "source": "Facebook",
+            "id": "198652233593252",
+            "UserID": "grupoJP2",
+            "UserType": "public"
+        },
+        {
+            "source": "Facebook",
+            "id": "467323376673036",
+            "UserID": "grupoJP3",
+            "UserType": "public"
+        },
+        {
+            "source": "Facebook",
+            "id": "643438152394892",
+            "UserID": "Police_Bombeiro",
+            "UserType": "public"
+        },
+        {
+            "source": "Facebook",
+            "id": "549517288423632",
+            "UserID": "oqueacontece",
+            "UserType": "public"
+        },
+        {
+            "source": "Facebook",
+            "id": "310511962387473",
+            "UserID": "Bicicleta_roubada",
+            "UserType": "public"
+        },
+        {
+            "source": "Facebook",
+            "id": "marcos.weric",
+            "UserID": "marcos_weric",
+            "UserType": "public"
+        },
+        {
+            "source": "Facebook",
+            "id": "blogdogordinho",
+            "UserID": "Blog_Gordinho",
+            "UserType": "public"
+        },
+        {
+            "source": "Facebook",
+            "id": "transitoecidadaniapb",
+            "UserID": "transitoecidadaniapb",
+            "UserType": "public"
+        },
+        {
+            "source": "Facebook",
+            "id": "228181600606616",
+            "UserID": "Basta_violencia",
+            "UserType": "public"
+        },
+        {
+            "source": "Facebook",
+            "id": "138664862938945",
+            "UserID": "arenajovjp",
+            "UserType": "public"
+        },
+        {
+            "source": "Facebook",
+            "id": "174841935943724",
+            "UserID": "Parahyba",
+            "UserType": "public"
+        },
+        {
+            "source": "Facebook",
+            "id": "213987322085039",
+            "UserID": "semob_facebook",
+            "UserType": "public"
+        },
+        {
+            "source": "Facebook",
+            "id": "251885554945615",
+            "UserID": "cartaxo_arretado",
+            "UserType": "public"
+        },
+        {
+            "source": "Twitter",
+            "id": "CBNJoaoPessoa",
+            "UserID": "cbnjp",
+            "UserType": "press"
+        },
+        {
+            "source": "Twitter",
+            "id": "RadioCBNJP",
+            "UserID": "cbnjp",
+            "UserType": "press"
+        },
+        {
+            "source": "Twitter",
+            "id": "apmp_",
+            "UserID": "apmp",
+            "UserType": "public"
+        },
+        {
+            "source": "Twitter",
+            "id": "wscom",
+            "UserID": "wscom",
+            "UserType": "press"
+        },
+        {
+            "source": "Twitter",
+            "id": "jornaldapb",
+            "UserID": "jornaldapb",
+            "UserType": "press"
+        },
+        {
+            "source": "Twitter",
+            "id": "ClubeFMJampa",
+            "UserID": "clubefmjampa",
+            "UserType": "press"
+        },
+        {
+            "source": "Twitter",
+            "id": "mixjampa",
+            "UserID": "mixjp",
+            "UserType": "press"
+        },
+        {
+            "source": "Twitter",
+            "id": "uniaogovpb",
+            "UserID": "auniao",
+            "UserType": "press"
+        },
+        {
+            "source": "Twitter",
+            "id": "paraibatv",
+            "UserID": "tvparaiba",
+            "UserType": "press"
+        },
+        {
+            "source": "Twitter",
+            "id": "ResumoPB",
+            "UserID": "resumopb",
+            "UserType": "press"
+        },
+        {
+            "source": "Twitter",
+            "id": "diariodapb",
+            "UserID": "diariodapb",
+            "UserType": "press"
+        },
+        {
+            "source": "Twitter",
+            "id": "Sucesso92FM",
+            "UserID": "sucesso92fm",
+            "UserType": "press"
+        },
+        {
+            "source": "Twitter",
+            "id": "PolemicaParaiba",
+            "UserID": "polemicapb",
+            "UserType": "press"
+        },
+        {
+            "source": "Twitter",
+            "id": "maispb",
+            "UserID": "maispb",
+            "UserType": "press"
+        },
+        {
+            "source": "Twitter",
+            "id": "blogheldermoura",
+            "UserID": "heldermoura",
+            "UserType": "press"
+        },
+        {
+            "source": "Twitter",
+            "id": "CORENPB",
+            "UserID": "corenpb",
+            "UserType": "public"
+        },
+        {
+            "source": "Twitter",
+            "id": "oabjovempb",
+            "UserID": "oab_jovem",
+            "UserType": "public"
+        },
+        {
+            "source": "Twitter",
+            "id": "RaoniMendes",
+            "UserID": "raonimendes",
+            "UserType": "authority"
+        },
+        {
+            "source": "Twitter",
+            "id": "ChicoSindicato",
+            "UserID": "chicodosindicato",
+            "UserType": "authority"
+        },
+        {
+            "source": "Twitter",
+            "id": "durval_ferreira",
+            "UserID": "durval.ferreira",
+            "UserType": "authority"
+        },
+        {
+            "source": "Twitter",
+            "id": "EduardoFubaPB",
+            "UserID": "eduardofuba",
+            "UserType": "authority"
+        },
+        {
+            "source": "Twitter",
+            "id": "InformeBira",
+            "UserID": "bira.pereira",
+            "UserType": "authority"
+        },
+        {
+            "source": "Twitter",
+            "id": "facacegapb",
+            "UserID": "Djanilson-da-Fonseca",
+            "UserType": "authority"
+        },
+        {
+            "source": "Twitter",
+            "id": "ZEZINHOBOTAFOGO",
+            "UserID": "zezinhobotafogo",
+            "UserType": "authority"
+        },
+        {
+            "source": "Twitter",
+            "id": "MarcoAntonioPPS",
+            "UserID": "MarcoAntonioQueiroga",
+            "UserType": "authority"
+        },
+        {
+            "source": "Twitter",
+            "id": "beniltonllucena",
+            "UserID": "beniltonlucena",
+            "UserType": "authority"
+        },
+        {
+            "source": "Twitter",
+            "id": "Bosquinho_Filho",
+            "UserID": "bosquinho",
+            "UserType": "authority"
+        },
+        {
+            "source": "Twitter",
+            "id": "Dudu_Carneiro",
+            "UserID": "eduardocarneiro",
+            "UserType": "authority"
+        },
+        {
+            "source": "Twitter",
+            "id": "VereadoraEliza",
+            "UserID": "ElizaVirginia",
+            "UserType": "authority"
+        },
+        {
+            "source": "Twitter",
+            "id": "FernandoMilane1",
+            "UserID": "fernando.milanez",
+            "UserType": "authority"
+        },
+        {
+            "source": "Twitter",
+            "id": "JoaoCorujinha",
+            "UserID": "joaocorujinha",
+            "UserType": "authority"
+        },
+        {
+            "source": "Twitter",
+            "id": "_joaodossantosf",
+            "UserID": "JoaoDosSantos",
+            "UserType": "authority"
+        },
+        {
+            "source": "Twitter",
+            "id": "marmuthe_jp",
+            "UserID": "marmuthe",
+            "UserType": "authority"
+        },
+        {
+            "source": "Twitter",
+            "id": "vereadoraraissa",
+            "UserID": "gabraissa.lacerda",
+            "UserType": "authority"
+        },
+        {
+            "source": "Twitter",
+            "id": "Santino_jp",
+            "UserID": "santino",
+            "UserType": "authority"
+        },
+        {
+            "source": "Twitter",
+            "id": "sergiodasac",
+            "UserID": "sergio.dasac",
+            "UserType": "authority"
+        },
+        {
+            "source": "Twitter",
+            "id": "camarajp",
+            "UserID": "camaramunicipal.joaopessoa",
+            "UserType": "authority"
+        },
+        {
+            "source": "Twitter",
+            "id": "AGaldino4",
+            "UserID": "adrianogaldino.cezardearaujo",
+            "UserType": "authority"
+        },
+        {
+            "source": "Twitter",
+            "id": "DepManoelJunior",
+            "UserID": "ManoelJunior",
+            "UserType": "authority"
+        },
+        {
+            "source": "Twitter",
+            "id": "BrunoCunhaLima",
+            "UserID": "brunoclimab",
+            "UserType": "authority"
+        },
+        {
+            "source": "Twitter",
+            "id": "Buba40789",
+            "UserID": "BubaGermano",
+            "UserType": "authority"
+        },
+        {
+            "source": "Twitter",
+            "id": "Camila45123",
+            "UserID": "camila.toscano",
+            "UserType": "authority"
+        },
+        {
+            "source": "Twitter",
+            "id": "Daniella11CG",
+            "UserID": "Daniella11CG",
+            "UserType": "authority"
+        },
+        {
+            "source": "Twitter",
+            "id": "DINALDOW",
+            "UserID": "dinaldinho",
+            "UserType": "authority"
+        },
+        {
+            "source": "Twitter",
+            "id": "depdodadetiao",
+            "UserID": "dodadetiao",
+            "UserType": "authority"
+        },
+        {
+            "source": "Twitter",
+            "id": "BrancoMendespb",
+            "UserID": "depbrancomendes",
+            "UserType": "authority"
+        },
+        {
+            "source": "Twitter",
+            "id": "FreiAnastacioAL",
+            "UserID": "freianastacioribeiro.ribeiro",
+            "UserType": "authority"
+        },
+        {
+            "source": "Twitter",
+            "id": "GenivalMatias",
+            "UserID": "genivalm",
+            "UserType": "authority"
+        },
+        {
+            "source": "Twitter",
+            "id": "gervasiomaia",
+            "UserID": "gervasiomaia",
+            "UserType": "authority"
+        },
+        {
+            "source": "Twitter",
+            "id": "hervaziobezerra",
+            "UserID": "hervaziobezerra",
+            "UserType": "authority"
+        },
+        {
+            "source": "Twitter",
+            "id": "janduhy",
+            "UserID": "janduhycarneiro",
+            "UserType": "authority"
+        },
+        {
+            "source": "Twitter",
+            "id": "JanduhyC",
+            "UserID": "janduhycarneiro",
+            "UserType": "authority"
+        },
+        {
+            "source": "Twitter",
+            "id": "JANDUHYR23111",
+            "UserID": "janduhycarneiro",
+            "UserType": "authority"
+        },
+        {
+            "source": "Twitter",
+            "id": "_jeovacampos",
+            "UserID": "jeovacampos",
+            "UserType": "authority"
+        },
+        {
+            "source": "Twitter",
+            "id": "_joaogoncalves",
+            "UserID": "joaogoncalves",
+            "UserType": "authority"
+        },
+        {
+            "source": "Twitter",
+            "id": "vote25666",
+            "UserID": "JoseAldemirMeireles",
+            "UserType": "authority"
+        },
+        {
+            "source": "Twitter",
+            "id": "JutayMeneses",
+            "UserID": "JutayMeneses",
+            "UserType": "authority"
+        },
+        {
+            "source": "Twitter",
+            "id": "Lindolfo_Pires",
+            "UserID": "lindolfopires",
+            "UserType": "authority"
+        },
+        {
+            "source": "Twitter",
+            "id": "ManoelLudgerio",
+            "UserID": "manoel.ludgerio",
+            "UserType": "authority"
+        },
+        {
+            "source": "Twitter",
+            "id": "RealNabor",
+            "UserID": "nabor.wanderley",
+            "UserType": "authority"
+        },
+        {
+            "source": "Twitter",
+            "id": "ranypaulino",
+            "UserID": "ranierypaulino",
+            "UserType": "authority"
+        },
+        {
+            "source": "Twitter",
+            "id": "RenatoGadelha2",
+            "UserID": "RenatoGadelha",
+            "UserType": "authority"
+        },
+        {
+            "source": "Twitter",
+            "id": "rbarbosapac",
+            "UserID": "RicardoBarbosa",
+            "UserType": "authority"
+        },
+        {
+            "source": "Twitter",
+            "id": "TovarCLima",
+            "UserID": "tovarcorreialima",
+            "UserType": "authority"
+        },
+        {
+            "source": "Twitter",
+            "id": "trocollijr15123",
+            "UserID": "trocollijr",
+            "UserType": "authority"
+        },
+        {
+            "source": "Twitter",
+            "id": "Trocolli_Junior",
+            "UserID": "trocollijr",
+            "UserType": "authority"
+        },
+        {
+            "source": "Twitter",
+            "id": "estacaocb",
+            "UserID": "PMJP",
+            "UserType": "public"
+        },
+        {
+            "source": "Twitter",
+            "id": "FaceNewsJp",
+            "UserID": "faceenewsjp",
+            "UserType": "public"
+        },
+        {
+            "source": "Twitter",
+            "id": "clubeoficiaispb",
+            "UserID": "Police_Bombeiro",
+            "UserType": "public"
+        },
+        {
+            "source": "Twitter",
+            "id": "ArenaJovemJPA2",
+            "UserID": "arenajovjp",
+            "UserType": "public"
+        },
+        {
+            "source": "Twitter",
+            "id": "TransitoJP",
+            "UserID": "TransitoJP",
+            "UserType": "public"
+        },
+        {
+            "source": "Twitter",
+            "id": "marcosweric",
+            "UserID": "marcos_weric",
+            "UserType": "public"
+        },
+        {
+            "source": "Twitter",
+            "id": "blog_dogordinho",
+            "UserID": "Blog_Gordinho",
+            "UserType": "public"
+        }
+
+    ]
+}

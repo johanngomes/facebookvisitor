@@ -1,0 +1,24 @@
+{
+  "visitor": {
+    "running_mode" : "DEBUG",
+    "max_days_spent_to_crawl": 30,
+    "visit_multiple": 2,
+    "root_feed_id": "468241373195655",
+    "visit_increment": [2, 3],
+    "revisit_increment": [128, 256],
+    "timeout_seconds" : 500
+  },
+  "batch": {
+    "sources_per_set": 30
+  },
+  "facebook_authenticator": {
+    "authentication_data_path": "authentication_data.txt",
+    "saved_access_token_path": "saved_access_token.txt"
+  },
+  "utc": {
+    "http_try_again_timeout": 5
+  },
+  "feed_filter": {
+      "portuguese_guessed_percentage": 30
+  }
+}
