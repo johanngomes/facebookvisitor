@@ -1,6 +1,6 @@
 # facebookvisitor
 
-== README
+==README
 
 With this tool, you can discover, extract and refresh facebook data sources and its posts/comments. 
 
@@ -12,7 +12,7 @@ The data sources that can be discovered are:
 
 *the discovery of events and groups are limited to privacy settings of this source types. Open events and groups are discovered flawlessly.
 
-== REQUIREMENTS
+==REQUIREMENTS
 
 Python 2.7.x
 https://www.python.org/downloads
